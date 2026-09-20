@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Cafe | Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <header>
+            <h1>Aurora Cafe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+    </header>
+    <main> 
+        <section id="home">
+            <h2>Good coffe. Good Moments</h2>
+                <p>
+                    Fresh coffe, homemade pastries and a cozy place to enjoy your day.
+
+                </p>
+                    <a href="#menu">See Our Menu</a>
+
+            
+        </section>
+
+
+        <section id="menu">
+         <h2> Our Menu</h2>
+
+        <p> Take a look at some of our favorites</p>
+
+        <article>
+            <img src="assets/images/expresso.png" alt="Aurora Cafe Expresso" width="300" height="200">
+            <h3>Expresso</h3>
+
+            <p>
+                A rich and intense shot of freshly brewed coffee.
+            </p>
+
+            <p>R$ 8,00</p>
+            </article>
+
+
+            <article>
+            <img src="assets/images/capuccino.png" alt="Aurora Cafe Capuccino" width="300" height="200">
+            <h3>Capuccino</h3>
+            <p>
+                A creamy blend of espresso, steamed milk, and frothy foam.
+            </p>
+
+            <p>R$ 12,00</p>
+            </article>
+
+            <article>
+            <img src="assets/images/mocha.png" alt="Aurora Cafe Mocha" width="300" height="200">
+            <h3>Mocha</h3>
+            <p>
+                A delightful combination of espresso, chocolate, and steamed milk.
+            </p>    
+
+            <p>R$ 14,00</p>
+            </article>
+
+            <article>
+            <img src="assets/images/croissant.png" alt="Aurora Cafe Croissant" width="300" height="200">
+            <h3> Croissant</h3>
+            <p>
+
+                A buttery and flaky pastry, perfect for breakfast or a snack.
+            </p>            
+
+            <p>R$ 10,00</p>
+
+        </article>
+    </section>
+
+        <section id="about">
+            <p class="section-lable">OUR STORY</p>
+            <h2>More than just coffe.</h2>
+
+            <p class="about-intro">
+                Aurora Cafe was created with a simple idea: good coffee shoul feel like a little break from the rush of everyday life.                
+            </p>
+
+            <p class="about-intro">
+                We serve carefully selected coffeem fresh pastries and homemade treats in a warm and welcoming space.
+            </p>
+
+            <div class="about-features">
+
+    <div class="feature">
+        <h3>Quality Coffee</h3>
+        <p>
+            Carefully selected beans for a rich and flavorful cup,
+            prepared with attention to every detail.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Freshly Made</h3>
+        <p>
+            Fresh pastries and homemade treats made to pair perfectly
+            with your favorite coffee.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Cozy Atmosphere</h3>
+        <p>
+            A warm and welcoming space to relax, work, meet friends,
+            or simply enjoy a quiet moment.
+        </p>
+    </div>
+
+</div>
+        </section>
+
+        <section id="hours">
+            <h2>Opening Hours</h2>
+            <p>Monday - Friday: 7:00 AM - 6:00 PM</p>
+            <p>Saturday: 8:00 AM - 4:00 PM</p>
+            <p>Sunday: Closed</p>
+        </section>
+<section id="contact">
+
+    <p class="section-label">GET IN TOUCH</p>
+    <h2>Contact Aurora</h2>
+
+    <p class="contact-intro">
+        Have a question or want to place an order?
+        We'd love to hear from you.
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h3>Visit Us</h3>
+            <p>123 Aurora Street</p>
+            <p>São Paulo, Brazil</p>
+
+            <h3>Contact</h3>
+            <p>hello@auroracafe.com</p>
+            <p>+55 (11) 99999-9999</p>
+
+            <h3>Opening Hours</h3>
+            <p>Mon – Fri: 7:00 AM – 6:00 PM</p>
+            <p>Saturday: 8:00 AM – 4:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+
+        <form class="contact-form">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                          placeholder="How can we help?"
+                          rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+            <p id="success-message">
+    Your request was sent successfully! We'll contact you in a few minutes.
+</p>
+
+        </form>
+
+    </div>
+
+</section>
+        
+       
+    </main>
+    <script
+        src="script.js"></script>
+</body>
+</html>
