@@ -326,3 +326,65 @@ nav a:hover {
     text-align: center;
     font-weight: bold;
 }
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #home h2 {
+        font-size: 36px;
+    }
+
+    #menu article {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .about-features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    #about,
+    #hours,
+    #contact {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+footer {
+    background-color: #1f2d38;
+    color: #f8f4ee;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
